@@ -1,20 +1,20 @@
 :root {
   /** colors */
   --color-name: custom;
-  --color-bg-shade: #131316;
-  --color-bg-base: #18181B;
-  --color-bg-surface: #1D1D20;
-  --color-bg-highlight: #222226;
-  --color-fg-shade: #969696;
-  --color-fg-base: #BBBBBB;
-  --color-fg-surface: #E0E0E0;
-  --color-fg-highlight: #FFFFFF;
-  --color-primary-bg: #777777;
-  --color-primary-base: #EEEEEE;
-  --color-primary-fg: #FFFFFF;
-  --color-secondary-bg: #252528;
-  --color-secondary-base: #494950;
-  --color-secondary-fg: #6E6E78;
+  --color-bg-shade: #0b081c;
+  --color-bg-base: #0b081c;
+  --color-bg-surface: #0b081c;
+  --color-bg-highlight: #312A2B;
+  --color-fg-shade: #597AC3;
+  --color-fg-base: #8DA4D6;
+  --color-fg-surface: #C1CEE9;
+  --color-fg-highlight: #F5F7FC;
+  --color-primary-bg: #233F7B;
+  --color-primary-base: #688AD4;
+  --color-primary-fg: #E3E9F7;
+  --color-secondary-bg: #2F4983;
+  --color-secondary-base: #8DA4D6;
+  --color-secondary-fg: #FFFFFF;
   --color-palette-red: #E06C75;
   --color-palette-green: #98C379;
   --color-palette-yellow: #E5C07B;
@@ -24,13 +24,13 @@
   --color-palette-orange: #FFBB7C;
   
   /** general */
-  --font-family: Roboto Mono;
+  --font-family: JetBrains Mono NL;
   --display-image: block;
 
   /** surface */
-  --surface-maxWidth: 1100px;
-  --surface-shadow: 12px 12px 0px rgb(119, 119, 119), 24px 24px 0px rgb(98.5, 98.5, 99.25), 36px 36px 0px rgb(78, 78, 79.5), 48px 48px 0px rgb(57.5, 57.5, 59.75), 60px 60px 0px rgb(37, 37, 40);
-  --surface-borderRadius: 32px;
+  --surface-maxWidth: 1000px;
+  --surface-shadow: 8px 8px 14px rgb(35, 63, 123), 16px 16px 14px rgb(36.2, 64, 123.8), 24px 24px 14px rgb(37.4, 65, 124.6), 32px 32px 14px rgb(38.6, 66, 125.4), 40px 40px 14px rgb(39.8, 67, 126.2), 48px 48px 14px rgb(41, 68, 127), 56px 56px 14px rgb(42.2, 69, 127.8), 64px 64px 14px rgb(43.4, 70, 128.6), 72px 72px 14px rgb(44.6, 71, 129.4), 80px 80px 14px rgb(45.8, 72, 130.2), 88px 88px 14px rgb(47, 73, 131);
+  --surface-borderRadius: 0px;
 
   /** spacing */
   --space-smallest: 0.125rem;
